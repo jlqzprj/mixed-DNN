@@ -2,7 +2,8 @@
 Python codes for reproducing experiements in the paper https://arxiv.org/abs/2303.16454.
 
 
-1. Visualization
+1. Visualization:
+
    The prediction/approximation of the conductivity q at selected prediction points is saved in 'YOUR_OUTPUT_FILE_NAME.mat' by the command line:
    
    'scipy.io.savemat('YOUR_OUTPUT_FILE_NAME.mat', {'sigma': sigpred})'
