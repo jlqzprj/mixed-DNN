@@ -1,5 +1,5 @@
 # mixed-DNN
-Python codes for reproducing experiements in the paper https://arxiv.org/abs/2303.16454.
+Python codes for reproducing results in the paper https://arxiv.org/abs/2303.16454.
 
 
 1. Visualization:
