@@ -38,7 +38,7 @@ Python codes for reproducing results in the paper https://arxiv.org/abs/2303.164
 
       and
 
-      'saver.save(self.sess, os.path.join('YOUR_PATH', 'YOUR_VARIABLE_STORE_FILE_NAME.ckpt'))'
+      'saver.save(self.sess, os.path.join('YOUR_PATH', 'YOUR_VARIABLE_STORE_FILE.ckpt'))'
 
       in the train section to save values of the trainable variables (i.e., weights and biases).
 
@@ -47,11 +47,11 @@ Python codes for reproducing results in the paper https://arxiv.org/abs/2303.164
 
       The latter is achieved by uncommenting the line
 
-      'saver.restore(self.sess, os.path.join('YOUR_PATH', 'YOUR_VARIABLE_STORE_FILE_NAME.ckpt'))'
+      'saver.restore(self.sess, os.path.join('YOUR_PATH', 'YOUR_VARIABLE_STORE_FILE.ckpt'))'
 
       and commenting the line
    
-      'saver.save(self.sess, os.path.join('YOUR_PATH', 'YOUR_VARIABLE_STORE_FILE_NAME.ckpt'))'
+      'saver.save(self.sess, os.path.join('YOUR_PATH', 'YOUR_VARIABLE_STORE_FILE.ckpt'))'
 
       in the train section.
 
