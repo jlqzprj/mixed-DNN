@@ -30,7 +30,7 @@ class kohnint:
         self.zb = X_bdr[:, 2:3]
         
         self.f = f
-        self.g1 = g1
+        self.g1 = g1  #here (g1,g2,g3) = q^dagger*\grad(z^delta) in the paper, corresponds to the dirichlet condition
         self.g2 = g2
         self.g3 = g3
         
