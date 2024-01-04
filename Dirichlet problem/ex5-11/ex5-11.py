@@ -88,8 +88,8 @@ class kohnint:
         self.sigprj = tf.math.minimum(tf.math.maximum(self.c0, self.sig), self.c1)
         
         # the max and min value of the conductivity q
-        self.s1 = tf.reduce_max(self.sig)
-        self.s0 = tf.reduce_min(self.sig)
+        self.s1 = tf.reduce_max(self.sigf)
+        self.s0 = tf.reduce_min(self.sigf)
 
 
 
